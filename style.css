@@ -1,0 +1,45 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(16.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+.tembok{
+  border-radius: 7px;
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #191919;
+  transform: translate(-50%,-50%);
+  box-shadow: 10px 10px 10px;
+}
+.tembok h1, .tembok h5{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.tembok #ig, .tembok #fb{
+  border: 0;
+  display: block;
+  background: none;
+  margin: 10px auto;
+  text-align: center;
+  padding: 14px 20px;
+  outline: none;
+  color: white;
+  border-radius: 4px;
+  border: 1px solid lime;
+  transition: 0.25s;
+  text-decoration: none;
+}
+.tembok #fb:hover,.tembok #ig:hover{
+  background: lime;
+}
+.insta{
+  text-decoration: none;
+}
